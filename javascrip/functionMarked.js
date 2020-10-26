@@ -43,7 +43,7 @@ function setDefault(){
 
 
 
-
+marked.setOptions({breaks: true})
 
 function previewUpdate() {
     const editorValue = document.getElementById("editor").value;
